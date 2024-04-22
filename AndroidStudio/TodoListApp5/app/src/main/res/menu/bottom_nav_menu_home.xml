@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home_personal"
+        android:title="@string/personal" />
+    <item
+        android:id="@+id/navigation_home_shared"
+        android:title="@string/shared" />
+    <item
+        android:id="@+id/navigation_home_shared_with_me"
+        android:title="@string/shared_with_me" />
+</menu>

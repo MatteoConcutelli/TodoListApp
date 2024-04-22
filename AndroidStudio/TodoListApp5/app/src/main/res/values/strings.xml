@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TodoListApp5</string>
+    <string name="title_login">Login</string>
+    <string name="title_registration">Registration</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="url_accesstodolist">http://10.0.2.2:8080/TodoListApp/accesstodolist?</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="personal">Personal</string>
+    <string name="shared">Shared</string>
+    <string name="shared_with_me">Shared with me</string>
+    <string name="com_example_todolistapp5_preferences">com.example.todolistapp5_preferences</string>
+    <string name="url_personal_todolists">http://10.0.2.2:8080/TodoListApp/todolists</string>
+    <string name="url_shared_todolists">http://10.0.2.2:8080/TodoListApp/sharedtodolists</string>
+</resources>
