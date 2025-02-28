@@ -79,5 +79,4 @@ TodoListApp is a task management application built with Android Studio and Java.
 ## Technologies Used 💻
 - **Android Studio**
 - **Java SDK**
-- **SQLite** (for local data storage)  
-*(Additional libraries and frameworks can be listed here)*
+- **SQLite** (for local data storage)
