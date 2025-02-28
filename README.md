@@ -1,7 +1,7 @@
 # TodoListApp 🎯
 
 ## Overview 🚀
-TodoListApp is a task management application built with Android Studio and Java. It empowers users to organize and track their daily activities by creating personal and shared to-do lists, managing tasks, and collaborating with others.
+TodoListApp is a task management application built with Android Studio and Java.
 
 ## Key Features ✨
 - **User Registration & Login** 🔐  
