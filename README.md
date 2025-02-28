@@ -1,67 +1,33 @@
 # TodoListApp 🎯
 
 ## Overview 🚀
-TodoListApp is a task management application built with Android Studio and Java.
+TodoListApp is a comprehensive university course project offering a complete task management solution. The repository is divided into two main parts: a back end powered by Apache and a front end built with Android Studio and Java. Users can create, manage, and collaborate on both personal and shared to-do lists.
+
+## Repository Structure 📁
+- **[[Backend]](/TodoListApp):**  
+  Contains the server-side code running on Apache. This part manages API endpoints, data processing, and integration with the front end.
+- **[[Frontend]](/AndroidStudio):**  
+  Contains the Android application developed with Android Studio and Java. It provides an intuitive interface for task management and collaboration.
 
 ## Key Features ✨
+### Backend
+- **API Endpoints:**  
+  - Handle user authentication, to-do list management, and task operations.
+- **Data Management:**  
+  - Efficiently processes and stores data for seamless integration with the front end.
+
+### Frontend
 - **User Registration & Login** 🔐  
-  - Register with a unique username, password (minimum 5 characters), name, surname, and birthdate.  
-  - Secure login using username and password.
-
+  - Register with a unique username, password (minimum 5 characters), name, surname, and birthdate.
 - **Todo List Management** 📋  
-  - Create, rename, or delete lists with unique names.  
-  - Categorize lists into:  
-    - **Personal:** Owned by the user.  
-    - **Shared with Me:** Lists shared by others.  
-    - **Shared:** Lists the user has shared.
-
+  - Create, rename, or delete lists categorized as Personal, Shared with Me, or Shared.
 - **Task Management** 📝  
-  - Create tasks with a title, description, priority (LOW, MEDIUM, HIGH), and deadline.  
-  - Schedule tasks as daily or for the next day, week, or month.  
-  - Mark tasks as completed, moving them to a "Done" section.  
-  - Highlight overdue tasks in red, affecting both the task and its list.  
-  - Delete tasks using a swipe gesture.
+  - Add tasks with a title, description, priority (LOW, MEDIUM, HIGH), and deadline.
+  - Mark tasks as completed, highlight overdue tasks, and delete tasks with intuitive gestures.
+- **Collaboration** 🤝  
+  - Share lists with other users via invitations.
+  - Manage permissions and track task completion collaboratively.
 
-- **Sharing & Permissions** 🤝  
-  - **Shared Lists:**  
-    - Only the owner can add or delete tasks, manage participants, or delete the list.  
-    - Participants can mark tasks as completed (credited with their username).  
-  - **Invitations:**  
-    - Owners invite others via username.  
-    - Recipients can accept or decline the invitation.  
-    - Participants can leave shared lists, while owners can remove participants.
-
-- **Deletion Rules** 🗑️  
-  - Users can delete their personal lists or leave shared lists.  
-  - Participants cannot delete tasks in shared lists.
-
-- **User Interface** 💻  
-  - **Home Screen:**  
-    - **Personal:** Displays all user-owned lists.  
-    - **Shared with Me:** Displays lists shared by others.  
-    - **Shared:** Displays lists the user has shared.  
-  - Lists are auto-sorted into "Personal" or "Shared" sections when added.  
-  - Adding tasks involves specifying the title, description, priority, and deadline.
-
-- **Database Schema (ER Diagram)** 🗂️  
-  - **User:** username (unique), password, name, surname, birthdate.  
-  - **List:** title (unique), owner (linked to User), isShared (boolean).  
-  - **Task:** description, priority, deadline, isDone (boolean).  
-  - **SharedList:** Manages the relationships between Users and Lists.
-
-- **Additional Notes** 🛠️  
-  - **Real-time Updates:** Shared lists refresh on access or via a manual refresh button.  
-  - **Error Handling:** Overdue tasks and lists are highlighted in red.
-
-## Installation 🛠️
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/MatteoConcutelli/TodoListApp.git
-2. **Open in Android Studio**
-    - Launch Android Studio.
-    - Select "Open an existing Android Studio project" and navigate to the cloned repository.
-3. **Build & Run**
-    - Build the project and run it on an emulator or a physical Android device.**
 
 ## Usage 📲
 
@@ -77,6 +43,8 @@ TodoListApp is a task management application built with Android Studio and Java.
 - Manage permissions and track task completion collaboratively.
 
 ## Technologies Used 💻
+- **Apache (for serving API endpoints)**
+- **MySQL**
 - **Android Studio**
 - **Java SDK**
 - **SQLite** (for local data storage)
