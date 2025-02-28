@@ -58,10 +58,10 @@ TodoListApp is a task management application built with Android Studio and Java.
    ```bash
    git clone https://github.com/MatteoConcutelli/TodoListApp.git
 2. **Open in Android Studio**
-- Launch Android Studio.
-- Select "Open an existing Android Studio project" and navigate to the cloned repository.
+    - Launch Android Studio.
+    - Select "Open an existing Android Studio project" and navigate to the cloned repository.
 3. **Build & Run**
-- Build the project and run it on an emulator or a physical Android device.**
+    - Build the project and run it on an emulator or a physical Android device.**
 
 ## Usage 📲
 
